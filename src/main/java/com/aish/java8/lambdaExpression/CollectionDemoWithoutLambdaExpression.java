@@ -14,16 +14,16 @@ class MyComparator implements Comparator<Integer>
 
 public class CollectionDemoWithoutLambdaExpression {
 
-	public static void main(String[] args) {
-		ArrayList<Integer> i=new ArrayList<>();
-		i.add(10);
-		i.add(5);
-		i.add(11);
-		i.add(7);
-		i.add(2);
-		System.out.println("Before"+i);
-		Collections.sort(i,new MyComparator());
-		System.out.println("After"+i);
-	}
+//	public static void main(String[] args) {
+//		ArrayList<Integer> i=new ArrayList<>();
+//		i.add(10);
+//		i.add(5);
+//		i.add(11);
+//		i.add(7);
+//		i.add(2);
+//		System.out.println("Before"+i);
+//		Collections.sort(i,new MyComparator());
+//		System.out.println("After"+i);
+//	}
 	
 }
