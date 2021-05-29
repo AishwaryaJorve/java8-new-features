@@ -12,7 +12,7 @@ class MyComparator implements Comparator<Integer>
 }
 
 
-public class CollectionDemoWithoutLambdaExpression {
+public class ListDemoWithoutLambdaExpression {
 
 //	public static void main(String[] args) {
 //		ArrayList<Integer> i=new ArrayList<>();
