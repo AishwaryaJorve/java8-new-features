@@ -1,4 +1,4 @@
-package notes;
+package com.aish.java8.notes;
 
 import com.aish.java8.lambdaExpression.Test1;
 
