@@ -83,7 +83,7 @@ import com.aish.java8.lambdaExpression.Test1;
 
 
 /**
- * Anonymous inner class that implements interface which contains only one method
+ * Anonymous inner class that implements interface which contains only one method(functional interface)
  */
 //			interface Test{
 //				public void m1();
