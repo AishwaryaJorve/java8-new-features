@@ -56,7 +56,7 @@ package com.aish.java8.lambdaExpression;
 //}
 
 /**
- * Using lamda expression (Another way)
+ * Using lamda expression (Another way) 
  * @author AishwaryaJorve
  *
  */

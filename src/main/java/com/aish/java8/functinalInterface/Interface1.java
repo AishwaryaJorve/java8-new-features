@@ -17,6 +17,7 @@ interface  Child1 extends Interface1{
 /**
  * In child interface contain exactly same abstract method
  */
+
 //public interface Interface1 {
 //    public void m1();
 //}
