@@ -1,6 +1,14 @@
 package com.aish.java8.thisExplanation;
 
 
+/**
+ * 
+ * @author AishwaryaJorve
+ * 
+ * Inside lambda expression this always refer outer class member only
+ *
+ */
+
 
 interface TestInterf{
 	public void m1();

@@ -1,6 +1,14 @@
 package com.aish.java8.thisExplanation;
 
 
+/**
+ * 
+ * @author AishwaryaJorve
+ * 
+ * Inside anonymous inner class this always refer current class object.
+ *
+ */
+
 interface Interf{
 	public void m1();
 }
