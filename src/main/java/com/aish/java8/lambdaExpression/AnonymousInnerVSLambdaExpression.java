@@ -62,17 +62,17 @@ package com.aish.java8.lambdaExpression;
  */
 public class AnonymousInnerVSLambdaExpression {
 
-	public static void main(String[] args) {
-		Thread t = new Thread(() -> {
-			for (int i = 0; i < 10; i++) {
-				System.out.println("child Thread");
-			}
-
-		});
-		t.start();
-		for (int i = 0; i < 10; i++) {
-			System.out.println("Main thread");
-		}
-	}
+//	public static void main(String[] args) {
+//		Thread t = new Thread(() -> {
+//			for (int i = 0; i < 10; i++) {
+//				System.out.println("child Thread");
+//			}
+//
+//		});
+//		t.start();
+//		for (int i = 0; i < 10; i++) {
+//			System.out.println("Main thread");
+//		}
+//	}
 
 }
