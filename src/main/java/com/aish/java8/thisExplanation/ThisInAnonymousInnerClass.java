@@ -17,8 +17,9 @@ public class ThisInAnonymousInnerClass {
 			
 			@Override
 			public void m1() {
-				System.out.println(this.x);
-				
+				System.out.println(this.x); // this refer current class instance variable.
+				// will print ThisInAnonymousInnerClass class instance variable
+				System.out.println(ThisInAnonymousInnerClass.this.x);  
 			}
 		};  
 		i.m1();
