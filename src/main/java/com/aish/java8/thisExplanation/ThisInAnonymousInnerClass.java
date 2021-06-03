@@ -25,10 +25,10 @@ public class ThisInAnonymousInnerClass {
 		i.m1();
 	}
 	
-	public static void main(String[] args) {
-		ThisInAnonymousInnerClass t=new ThisInAnonymousInnerClass();
-		t.m2();
-				
-	}
+//	public static void main(String[] args) {
+//		ThisInAnonymousInnerClass t=new ThisInAnonymousInnerClass();
+//		t.m2();
+//				
+//	}
 	
 }
