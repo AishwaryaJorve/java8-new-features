@@ -27,6 +27,7 @@ public class FetchInstaceLocalVariableFromLambdaExpression {
 			System.out.println(y); 
 			
 			// so we can't reassign local variable ( will get compile time error)
+			// ce: local variable referenced from lambda expression must be final or effectively final
 			// y=30;
 			
 			// can reassign instance variable
