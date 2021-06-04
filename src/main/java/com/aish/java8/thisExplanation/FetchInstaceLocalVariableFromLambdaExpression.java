@@ -1,6 +1,13 @@
 package com.aish.java8.thisExplanation;
 
 
+
+/**
+ * The local variable referenced lambda expression are declare final (whether declare or not)
+ * @author AishwaryaJorve
+ *
+ */
+
 interface Interf3{
 	public void m1();
 }
@@ -15,7 +22,15 @@ public class FetchInstaceLocalVariableFromLambdaExpression {
 		
 		Interf3 i=()->{
 			System.out.println(x); // can access instance 
-			System.out.println(y); // can access local
+			
+			//if we are using local variable it became final
+			System.out.println(y); 
+			
+			// so we can't reassign local variable ( will get compile time error)
+			// y=30;
+			
+			// can reassign instance variable
+			x=30;
 		};
 		 
 		i.m1();
