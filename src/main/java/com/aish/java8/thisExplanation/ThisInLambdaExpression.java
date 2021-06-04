@@ -26,8 +26,8 @@ public class ThisInLambdaExpression {
     	i.m1();
     }
     
-    public static void main(String[] args) {
-    	ThisInLambdaExpression t=new ThisInLambdaExpression();
-    	t.m2();
-	}
+//    public static void main(String[] args) {
+//    	ThisInLambdaExpression t=new ThisInLambdaExpression();
+//    	t.m2();
+//	}
 }
