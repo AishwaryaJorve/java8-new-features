@@ -38,12 +38,12 @@ public class FetchInstaceLocalVariableFromLambdaExpression {
 	    	
 	}
 	
-	public static void main(String[] args) {
-		
-		FetchInstaceLocalVariableFromLambdaExpression t=new FetchInstaceLocalVariableFromLambdaExpression();
-		
-		t.m2();
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		FetchInstaceLocalVariableFromLambdaExpression t=new FetchInstaceLocalVariableFromLambdaExpression();
+//		
+//		t.m2();
+//		
+//	}
 	
 }
