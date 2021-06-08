@@ -22,10 +22,10 @@ public class DefultMethodInInterface implements Interf{
 		System.out.println("new implementation");
 	}
 	
-	public static void main(String[] args) {
-		DefultMethodInInterface t=new DefultMethodInInterface();
-		
-		t.m1();
-	}
+//	public static void main(String[] args) {
+//		DefultMethodInInterface t=new DefultMethodInInterface();
+//		
+//		t.m1();
+//	}
 	
 }
