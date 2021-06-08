@@ -18,6 +18,10 @@ interface Interf{
 
 public class DefultMethodInInterface implements Interf{
 
+	public void m1() {
+		System.out.println("new implementation");
+	}
+	
 	public static void main(String[] args) {
 		DefultMethodInInterface t=new DefultMethodInInterface();
 		
