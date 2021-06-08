@@ -15,7 +15,12 @@ interface Right{
 public class MultipleInheritanceWithDefultMethod implements Right,Left{
 
 	 public void m1() {
-		 System.out.println("My own implementation");
+		 
+//		 if don't want to provide new implementation
+//		 System.out.println("My own implementation");
+		 
+//		 want left interface implementation
+		 Left.super.m1();
 	 }
 	
 	public static void main(String[] args) {
