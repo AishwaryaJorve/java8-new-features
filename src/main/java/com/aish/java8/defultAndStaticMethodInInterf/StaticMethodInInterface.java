@@ -1,5 +1,12 @@
 package com.aish.java8.defultAndStaticMethodInInterf;
 
+/**
+ * Use of static method inside interface to define general utility method
+ * This static method not by default available to implementation class 
+ * Can call using interface name only.
+ * @author AishwaryaJorve
+ *
+ */
 
 interface interf2{
 	// static method in interface
@@ -11,14 +18,14 @@ interface interf2{
 public class StaticMethodInInterface {
 
 	public static void main(String[] args) {
-	   // Directly can't call	
-       // m1(); 
+	   	
+//      m1(); // Directly can't call
 		
-		StaticMethodInInterface t= new StaticMethodInInterface();
+	    StaticMethodInInterface t= new StaticMethodInInterface();
 		 
 //	    t.m1(); // not allow
 		
-//	   Test .m1(); // not allow	
+//	    Test .m1(); // not allow	
 		
 		interf2.m1(); // only one to access 
 		
