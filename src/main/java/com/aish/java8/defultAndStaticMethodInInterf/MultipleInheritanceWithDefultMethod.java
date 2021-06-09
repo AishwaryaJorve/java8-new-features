@@ -23,12 +23,12 @@ public class MultipleInheritanceWithDefultMethod implements Right,Left{
 		 Left.super.m1();
 	 }
 	
-	public static void main(String[] args) {
-		
-		MultipleInheritanceWithDefultMethod m= new MultipleInheritanceWithDefultMethod();
-		m.m1();
-		 
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		MultipleInheritanceWithDefultMethod m= new MultipleInheritanceWithDefultMethod();
+//		m.m1();
+//		 
+//		
+//	}
 	
 }
