@@ -17,18 +17,18 @@ interface interf2{
 
 public class StaticMethodInInterface {
 
-	public static void main(String[] args) {
-	   	
-//      m1(); // Directly can't call
-		
-	    StaticMethodInInterface t= new StaticMethodInInterface();
-		 
-//	    t.m1(); // not allow
-		
-//	    Test .m1(); // not allow	
-		
-		interf2.m1(); // only one to access 
-		
-	}
+//				public static void main(String[] args) {
+//				   	
+//			//      m1(); // Directly can't call
+//					
+//				    StaticMethodInInterface t= new StaticMethodInInterface();
+//					 
+//			//	    t.m1(); // not allow
+//					
+//			//	    Test .m1(); // not allow	
+//					
+//					interf2.m1(); // only one to access 
+//					
+//				}
 	
 }
