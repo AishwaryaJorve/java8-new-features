@@ -1,10 +1,9 @@
 package com.aish.java8.lambdaExpression;
 
-import java.util.TreeMap;
 
 public class TreeMapDemoWithLambdaExpression {
 
-	
+
 //public static void main(String[] args) {
 //		
 //		// While creating object pass lambda expression 
@@ -15,6 +14,6 @@ public class TreeMapDemoWithLambdaExpression {
 //		t.put(100, "Mahesh");
 //		System.out.println(t);
 //	}
-	
-	
+
+
 }
