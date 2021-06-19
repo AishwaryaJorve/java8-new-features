@@ -2,11 +2,11 @@ package com.aish.java8.prdefineFunctinalInterfaceFunction;
 
 import java.util.ArrayList;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
-/**
- * Find Grade of student using function interface
- *
- * @author Aishwarya Jorve
+/*
+  Find Grade of student using function interface
+  @author Aishwarya Jorve
  */
 
 
@@ -30,7 +30,7 @@ public class FindGradeOfStudent {
 
     public static void main(String[] args) {
         // ArrayList object to store student
-        ArrayList<Student> l = new ArrayList<Student>();
+        ArrayList<Student> l = new ArrayList<>();
 
         // populate method add student in arraylist obj.
         populate(l);
@@ -53,6 +53,18 @@ public class FindGradeOfStudent {
             }
 
         };
+
+        Predicate<Student> p=s->s.marks>=60;
+        for (Student s:l) {
+            if(p.test(s)){
+                System.out.println("Student Name:" + s.name);
+                System.out.println("Student Marks:" + s.marks);
+
+                // call to apply method of Function interface
+                System.out.println("Student Grade:" + f.apply(s));
+                System.out.println();
+            }
+        }
 
         // Iterate arraylist obj using forEach loop
         for (Student s : l) {
