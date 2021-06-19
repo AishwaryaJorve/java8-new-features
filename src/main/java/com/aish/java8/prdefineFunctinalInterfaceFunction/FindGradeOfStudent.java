@@ -67,14 +67,14 @@ public class FindGradeOfStudent {
         }
 
         // Iterate arraylist obj using forEach loop
-        for (Student s : l) {
-            System.out.println("Student Name:" + s.name);
-            System.out.println("Student Marks:" + s.marks);
-
-            // call to apply method of Function interface
-            System.out.println("Student Grade:" + f.apply(s));
-            System.out.println();
-        }
+//        for (Student s : l) {
+//            System.out.println("Student Name:" + s.name);
+//            System.out.println("Student Marks:" + s.marks);
+//
+//            // call to apply method of Function interface
+//            System.out.println("Student Grade:" + f.apply(s));
+//            System.out.println();
+//        }
     }
 
     // Populate method to store students
