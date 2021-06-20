@@ -47,3 +47,23 @@ public class MovieInfoUsingConsumer {
         l.add(new Movie("Sultan", "Salman", "Anushka"));
     }
 }
+
+/**
+ * Output
+ *
+ * Movie Name:Bahubali
+ * Movie Hero:Prabhas
+ * Movie Heroine:Anushka
+ *
+ * Movie Name:Rayees
+ * Movie Hero:Sharukh
+ * Movie Heroine:Sunny
+ *
+ * Movie Name:Dangal
+ * Movie Hero:Ameer
+ * Movie Heroine:Ritu
+ *
+ * Movie Name:Sultan
+ * Movie Hero:Salman
+ * Movie Heroine:Anushka
+ */
