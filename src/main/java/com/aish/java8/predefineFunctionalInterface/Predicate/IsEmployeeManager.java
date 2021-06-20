@@ -1,4 +1,4 @@
-package com.aish.java8.predefineFunctionalInterface;
+package com.aish.java8.predefineFunctionalInterface.Predicate;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;

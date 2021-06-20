@@ -1,6 +1,4 @@
-package com.aish.java8.predefineFunctionalInterface;
-
-import java.util.function.Predicate;
+package com.aish.java8.predefineFunctionalInterface.Predicate;
 
 
 /**

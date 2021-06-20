@@ -1,4 +1,4 @@
-package com.aish.java8.prdefineFunctinalInterfaceFunction;
+package com.aish.java8.predefineFunctionalInterface.function;
 
 import java.util.function.Function;
 /**
