@@ -1,7 +1,5 @@
 package com.aish.java8.notes;
 
-import com.aish.java8.lambdaExpression.Test1;
-
 /**
  * Annonymous inner class and lambda expression both are not equal anonymous inner class more powerful 
  * than lambda expression
