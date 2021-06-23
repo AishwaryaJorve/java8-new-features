@@ -1,6 +1,6 @@
 package com.aish.java8._06predefineBiFunctinalInterface;
 
-/**
+/*
  * Use Consumer to accept 2 input values and perform required operation and not required to return any result.
  * BiConsumer is exactly same as Consumer except that it will take 2 input arguments.
  */
