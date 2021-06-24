@@ -13,5 +13,4 @@ public class _02IntFunctionBasic {
         IntFunction<Integer> f = i -> i * i;
         System.out.println(f.apply(4));
     }
-
 }
