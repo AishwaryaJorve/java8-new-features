@@ -2,6 +2,11 @@ package com.aish.java8._07primitiveTypeFunctionalInterfaces;
 
 import java.util.function.IntConsumer;
 
+/**
+ * Consumer Basic demo
+ *
+ * @author Aishwarya Jorve
+ */
 public class _03IntConsumerBasic {
 
     public static void main(String[] args) {
