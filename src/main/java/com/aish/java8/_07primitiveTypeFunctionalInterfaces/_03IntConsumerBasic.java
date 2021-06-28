@@ -15,3 +15,7 @@ public class _03IntConsumerBasic {
     }
 
 }
+
+/**
+ * The Square of i:100
+ */
