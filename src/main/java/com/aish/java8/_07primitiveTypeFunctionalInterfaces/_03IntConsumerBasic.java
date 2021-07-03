@@ -4,7 +4,7 @@ import java.util.function.IntConsumer;
 
 /**
  * Consumer Basic demo
- *
+ * (Increase performance)
  * @author Aishwarya Jorve
  */
 public class _03IntConsumerBasic {
