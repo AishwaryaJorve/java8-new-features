@@ -10,7 +10,7 @@ import java.util.function.IntSupplier;
 /**
  * @author  Aishwarya Jorve
  */
-public class IntSupplierDemo {
+public class _04IntSupplierDemo {
     public static void main(String[] args) {
         IntSupplier s=()->(int)(Math.random()*10);
 
