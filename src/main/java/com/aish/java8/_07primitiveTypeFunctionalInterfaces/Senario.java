@@ -6,13 +6,12 @@ public class Senario {
         boolean flag=false;
         if (a.length > 0) {
             for (int i = 0; i < a.length; i++) {
-                if(a[i]==5){
-                    flag=false;
+                if (a[i] == 5) {
+                    flag = false;
                     return false;
-                }
-                else {
+                } else {
                     System.out.println(a[i]);
-                    flag=true;
+                    flag = true;
                 }
             }
         }
