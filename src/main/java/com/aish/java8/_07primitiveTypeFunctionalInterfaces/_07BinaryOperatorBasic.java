@@ -19,7 +19,7 @@ import java.util.function.BinaryOperator;
  */
 
 
-public class _07BinaryOpratorBasic {
+public class _07BinaryOperatorBasic {
     public static void main(String[] args) {
         BinaryOperator<String> b =(s1,s2)->s1+s2;
         System.out.println(b.apply("Aishwarya", "Jorve"));
