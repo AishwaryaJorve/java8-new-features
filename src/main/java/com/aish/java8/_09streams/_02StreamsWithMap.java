@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author  Aishwarya Jorve
+ */
 public class _02StreamsWithMap {
     public static void main(String[] args) {
         ArrayList<Integer> i= new ArrayList<Integer>();
