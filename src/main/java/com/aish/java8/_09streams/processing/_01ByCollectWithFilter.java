@@ -3,14 +3,14 @@ package com.aish.java8._09streams.processing;
 /**
  * @author AishwaryaJorve
  *
- * Basic demo on collect method
+ * Basic demo on collect method with filter method
  */
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class _01ByCollect {
+public class _01ByCollectWithFilter {
     public static void main(String[] args) {
         ArrayList<String> al=new ArrayList<>();
         al.add("Aishi");
